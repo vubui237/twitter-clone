@@ -122,7 +122,6 @@ $(document).ready(function () { //Wohoo, We're using jQuery!
    $('.time').text(jQuery.timeago(new Date()));
 
    //Hover Avatars!
-   $('.avatar').addClass('title: fuckers')
    $('.avatar').on('mouseenter', function() {
        $('avatar').tooltip('show'); 
    })
